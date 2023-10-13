@@ -1,0 +1,39 @@
+﻿
+@model IEnumerable<WeatherForecast>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TemperatureF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Summary)
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var forecast in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => forecast.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => forecast.TemperatureF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => forecast.Summary)
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

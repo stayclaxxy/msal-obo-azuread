@@ -1,0 +1,114 @@
+{
+	"id": "6c3f5dea-69c9-406e-a187-a76c9c7629fd",
+	"acceptMappedClaims": null,
+	"accessTokenAcceptedVersion": null,
+	"addIns": [],
+	"allowPublicClient": true,
+	"appId": "13445074-e716-41f5-a9ae-5ce6874ae344",
+	"appRoles": [],
+	"oauth2AllowUrlPathMatching": false,
+	"createdDateTime": "2023-10-06T00:55:52Z",
+	"description": null,
+	"certification": null,
+	"disabledByMicrosoftStatus": null,
+	"groupMembershipClaims": "None",
+	"identifierUris": [],
+	"informationalUrls": {
+		"termsOfService": null,
+		"support": null,
+		"privacy": null,
+		"marketing": null
+	},
+	"keyCredentials": [],
+	"knownClientApplications": [],
+	"logoUrl": null,
+	"logoutUrl": null,
+	"name": "weather_client",
+	"notes": null,
+	"oauth2AllowIdTokenImplicitFlow": true,
+	"oauth2AllowImplicitFlow": true,
+	"oauth2Permissions": [],
+	"oauth2RequirePostResponse": false,
+	"optionalClaims": {
+		"idToken": [
+			{
+				"name": "acct",
+				"source": null,
+				"essential": false,
+				"additionalProperties": []
+			}
+		],
+		"accessToken": [],
+		"saml2Token": []
+	},
+	"orgRestrictions": [],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [
+		{
+			"customKeyIdentifier": null,
+			"endDate": "2024-04-03T00:58:05.433Z",
+			"keyId": "da1b5388-8507-454d-b8b5-238ec26a8a02",
+			"startDate": "2023-10-06T00:58:05.433Z",
+			"value": null,
+			"createdOn": "2023-10-06T00:58:09.2842962Z",
+			"hint": "4jL",
+			"displayName": "tttt"
+		}
+	],
+	"preAuthorizedApplications": [],
+	"publisherDomain": "daltonclaxtonyahoo.onmicrosoft.com",
+	"replyUrlsWithType": [
+		{
+			"url": "https://localhost:7077/signin-oidc",
+			"type": "Web"
+		}
+	],
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "330c92a3-464a-4c22-9e57-2a6b50982b38",
+			"resourceAccess": [
+				{
+					"id": "c08e3df0-b164-419c-a317-eb3ea80f48d0",
+					"type": "Scope"
+				}
+			]
+		},
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "64a6cdd6-aab1-4aaf-94b8-3cc8405e90d0",
+					"type": "Scope"
+				},
+				{
+					"id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182",
+					"type": "Scope"
+				},
+				{
+					"id": "37f7f235-527c-4136-accd-4a02d197296e",
+					"type": "Scope"
+				},
+				{
+					"id": "14dad69e-099b-42c9-810b-d002981feec1",
+					"type": "Scope"
+				},
+				{
+					"id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+					"type": "Scope"
+				},
+				{
+					"id": "df021288-bdef-4463-88db-98f22de89214",
+					"type": "Role"
+				}
+			]
+		}
+	],
+	"samlMetadataUrl": null,
+	"signInUrl": null,
+	"signInAudience": "AzureADMyOrg",
+	"tags": [],
+	"tokenEncryptionKeyId": null
+}
